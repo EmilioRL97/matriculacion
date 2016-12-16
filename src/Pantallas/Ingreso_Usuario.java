@@ -85,7 +85,7 @@ public class Ingreso_Usuario extends javax.swing.JFrame {
                 bningresarActionPerformed(evt);
             }
         });
-        getContentPane().add(bningresar, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 189, -1, 30));
+        getContentPane().add(bningresar, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 199, -1, 20));
 
         jLabel2.setText("Ingresar Usuarios");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(141, 20, -1, -1));

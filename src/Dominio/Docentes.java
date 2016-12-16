@@ -11,7 +11,7 @@ package Dominio;
  */
 public class Docentes {
      private int id_docente;
-    private long cedula;
+    private String cedula;
     private String nombre;
     private String apellidos;
     private String sexo;
@@ -20,7 +20,7 @@ public class Docentes {
     private String nivel_de_estudio;
     private String especialidad;
 
-    public Docentes(int id_docente, long cedula, String nombre, String apellidos, String sexo, int telefono, String direccion, String nivel_de_estudio, String especialidad) {
+    public Docentes(int id_docente, String cedula, String nombre, String apellidos, String sexo, int telefono, String direccion, String nivel_de_estudio, String especialidad) {
         this.id_docente = id_docente;
         this.cedula = cedula;
         this.nombre = nombre;
@@ -40,11 +40,11 @@ public class Docentes {
         this.id_docente = id_docente;
     }
 
-    public long getCedula() {
+    public String getCedula() {
         return cedula;
     }
 
-    public void setCedula(long cedula) {
+    public void setCedula(String cedula) {
         this.cedula = cedula;
     }
 

@@ -3,7 +3,7 @@ package Dominio;
 public class Representante {
     private int id_representante;
     private String representante;
-    private long cedula;
+    private String cedula;
     private String nombre;
     private String apellido;
     private int telefono;
@@ -11,7 +11,7 @@ public class Representante {
     private String sexo;
     private String estado_civil;
 
-    public Representante(int id_representante, String representante, long cedula, String nombre, String apellido, int telefono, String direccion, String sexo, String estado_civil) {
+    public Representante(int id_representante, String representante, String cedula, String nombre, String apellido, int telefono, String direccion, String sexo, String estado_civil) {
         this.id_representante = id_representante;
         this.representante = representante;
         this.cedula = cedula;
@@ -39,11 +39,11 @@ public class Representante {
         this.representante = representante;
     }
 
-    public long getCedula() {
+    public String getCedula() {
         return cedula;
     }
 
-    public void setCedula(long cedula) {
+    public void setCedula(String cedula) {
         this.cedula = cedula;
     }
 
